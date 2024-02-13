@@ -1,0 +1,15 @@
+//Question 2:Fibonacci sequence//
+//write a program that prints the numbers from 1 to 100.For multiples of 3,print"fizz"; for multiplesof 5,print"Buzz"and for numbers that are multiples of both 3 and 5,print""fizzbuzz"'
+
+class FibonacciSequence {
+public:
+    void generateFibonacci(int limit) const {
+        int a = 0, b = 1, temp;
+        while (a <= limit) {
+            std::cout << a << " ";
+            temp = a;
+            a = b;
+            b = temp + b;
+        }
+    }
+};

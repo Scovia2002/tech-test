@@ -1,0 +1,20 @@
+//Question 6:count vowels//
+#include<iostream>
+using namespace std;
+bool isvowel(char ch){
+  ch =toupper(ch);
+  return (ch="A"
+
+}
+int countvowels(string str)
+{
+  int count=o;
+  for(int=0; i<str.len
+  if(isvowel(str{i})))
+  ++count;
+}
+int main()
+{
+  string str="abc de";
+  cout<<countvowels(str)
+  return 0;
